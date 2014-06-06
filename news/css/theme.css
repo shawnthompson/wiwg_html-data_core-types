@@ -603,76 +603,76 @@ header .brand a {
  Site information
 */
 
-footer {
+footer#wb-info {
   background: #e1e4e7;
   position: relative;
   z-index: 5;
 }
 
-footer a {
+footer#wb-info a {
   font-size: 0.875em;
   text-decoration: none;
 }
 
-footer a.wb-navcurr {
+footer#wb-info a.wb-navcurr {
   font-weight: 800;
 }
 
-footer .brand {
+footer#wb-info .brand {
   background: #f8f8f8;
   border-top: 4px solid #335175;
   line-height: 30px;
 }
 
-footer .brand object,
-footer .brand img {
+footer#wb-info .brand object,
+footer#wb-info .brand img {
   height: 40px;
   margin-bottom: 10px;
   margin-top: 20px;
   width: auto;
 }
 
-footer .brand a {
+footer#wb-info .brand a {
   color: black;
 }
 
-footer .brand a span {
+footer#wb-info .brand a span {
   margin-left: 10px;
 }
 
-footer .brand a:hover {
+footer#wb-info .brand a:hover {
   text-decoration: none;
 }
 
-footer .tofpg {
+footer#wb-info .tofpg {
   line-height: 90px;
 }
 
-footer nav {
+footer#wb-info nav {
   padding-bottom: 1em;
   padding-top: 0.75em;
   position: relative;
 }
 
-footer nav li {
+footer#wb-info nav li {
   margin-bottom: 0.75em;
 }
 
-footer nav [class*="col-"] h3 {
+footer#wb-info nav [class*="col-"] h3 {
   font-size: 1.1em;
   font-weight: 700;
   margin-top: 20px;
 }
 
-[dir=rtl] footer .brand .text-right {
+[dir=rtl] footer#wb-info .brand .text-right {
   text-align: left;
 }
 
-[dir=rtl] footer .tofpg {
+[dir=rtl] footer#wb-info .tofpg {
   float: right;
 }
 
-[dir=rtl] footer .tofpg a span {
+[dir=rtl] footer#wb-info .tofpg a span {
   margin-left: 0;
   margin-right: 10px;
 }
@@ -1491,14 +1491,14 @@ a.shr-opn:hover {
     border-top: 16px solid transparent;
   }
 
-  footer .brand object,
-  footer .brand img {
+  footer#wb-info .brand object,
+  footer#wb-info .brand img {
     height: 25px;
     margin-top: 15px;
     padding-right: 10px;
   }
 
-  footer .tofpg {
+  footer#wb-info .tofpg {
     line-height: 60px;
   }
 
